@@ -89,9 +89,7 @@ will detect it.
     - ``PIPENV_VENV_IN_PROJECT`` — Toggle for detecting a ``.venv`` in your project directory
                                     and using it over the default environment manager, ``pew``.
 
-    - ``PIPENV_COLORBLIND`` — Disable terminal colors, for some reason.
-
-    - ``PIPENV_NOSPIN`` — Disable terminal spinner, for cleaner logs.
+    - ``PIPENV_COLORBLIND`` — Disable terminal colors and progress indicators.
 
     - ``PIPENV_MAX_DEPTH`` — Set to an integer for the maximum number of directories to
                                search for a Pipfile.
